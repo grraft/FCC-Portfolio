@@ -1,2 +1,2 @@
 # FCC-Portfolio
-FreeCodeCamp Portfolio Project
+FreeCodeCamp Portfolio Project built with React.js and Skeleton.css

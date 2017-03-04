@@ -1,0 +1,195 @@
+html {
+  background: url(https://s3.eu-west-2.amazonaws.com/img-repo/image1-opt.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(0,0,0,0.1);  
+}
+
+@keyframes fadeIn { 
+  from { opacity: 0 } 
+}
+
+section {
+  margin-bottom: 0px;
+  min-height: 100vh;
+}
+
+.section-heading {
+  padding-top: 5%;
+}
+
+.badge {
+  background-color: dodgerblue;
+  font-size: small;
+  margin: 0 2px;
+  display: inline-flex;
+  padding: 2px 5px;
+  border-radius: 5%;
+  color: white;
+  opacity: 0.7;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.small-hr {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.stretch {
+  width: 100%;
+}
+
+/* user section */
+.user-section {
+    background-color: rgba(250, 235, 215, 0.8);
+}
+
+.user-section-container {
+  padding-top: 12vh;
+}
+
+.animate-flicker {
+    animation: fadeIn 2s infinite alternate;
+}
+
+.profile-img {
+  border-radius: 10%;
+  max-width: 95%;
+  opacity: 0.94;
+  transition: 1s;
+  margin-bottom: 35px;
+}
+
+.profile-img:hover {
+  opacity: 1.0;
+}
+/* end of user section*/
+
+/* portfolio section */
+.portfolio-section {
+   background: url(https://s3.eu-west-2.amazonaws.com/img-repo/image2-opt.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 110%;
+}
+
+.portfolio-color {
+  background-color: rgba(130, 129, 129, 0.62);
+}
+
+.portfolio-container {
+  padding-bottom: 50px;
+}
+
+.portfolio-heading {
+  color: white;
+}
+
+.portfolio-item {
+  border-radius: 4%;
+  padding: 10px 8px;
+}
+
+.portfolio-item-img {
+  width: 100%;
+  border-radius: 4% 4% 0 0;
+}
+
+.portfolio-details {
+  padding: 20px;
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+  margin-top: -10px;
+}
+
+.profile-detail-row {
+  margin: 10px 0;
+}
+
+.label-container {
+  display: block;
+}
+
+.label {
+  display: inline-flex;
+  font-size: small;
+  margin: 2px;
+  padding: 0 4px;
+  color: white;
+  background-color: rgba(255, 117, 74, 0.81);
+  border-radius: 5%;
+}
+/* end of portfolio section */
+
+/* Contact section */
+.social-link {
+  color: white;
+}
+
+.social-link:hover {
+  color: skyblue;
+}
+
+.contact-options {
+  font-size: 1.11em;
+}
+
+.contact {
+  margin: 20px 0;
+}
+
+.custom-nav {
+  text-align: right;
+  padding: 15px 5px;
+}
+
+.custom-nav .button {
+  margin-right: 2px;
+}
+
+.angle-down-container {
+  text-align: -webkit-center;
+  font-size: 6rem;
+}
+
+.contact-section {
+  background: url(https://s3.eu-west-2.amazonaws.com/img-repo/image3-opt.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.contact-color {
+  min-height: inherit;
+  background-color: rgba(255, 171, 63, 0.84);
+  min-height: inherit;
+  color: white;
+}
+
+.company-criteria li {
+  margin-bottom: 2px;
+}
+
+.credits {
+  margin: 20px 0 40px;
+  color: grey;
+  font-size: smaller;
+}
+
+.credits p {
+  font-size: smaller;
+  margin: 2px;
+}
+/* end of contact section */
