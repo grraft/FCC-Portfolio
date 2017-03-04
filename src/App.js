@@ -200,5 +200,3 @@ const PortfolioPage = ({
 }
 
 export default PortfolioPage;
-
-// ReactDOM.render(<PortfolioPage user={user} portfolio={portfolio} sections={sections} />, document.getElementById('app'));
